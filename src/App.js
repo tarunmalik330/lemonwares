@@ -9,7 +9,7 @@ import RealStories from './components/RealStories';
 import ServeWebsite from './components/ServeWebsite';
 import WebHosting from './components/WebHosting';
 import WebsiteAwesome from './components/WebsiteAwesome';
-import BackToTop from "./assets/images/png/BackToTop.png"
+import BackToTop from "./assets/images/web.p/BackToTop.webp"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';

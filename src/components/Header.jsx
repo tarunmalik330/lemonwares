@@ -1,8 +1,8 @@
 import React from "react";
-import WomanImag from "../assets/images/png/womenworking.png";
-import RedVector1 from "../assets/images/png/RedVector1.png";
-import RedVector2 from "../assets/images/png/RedVector2.png";
-import RedVector3 from "../assets/images/png/Vector3.png";
+import WomanImag from "../assets/images/web.p/womenworking.webp";
+import RedVector1 from "../assets/images/web.p/RedVector1.webp";
+import RedVector2 from "../assets/images/web.p/RedVector2.webp";
+import RedVector3 from "../assets/images/web.p/Vector3.webp";
 
 const Tabs = () => {
   const [openTab, setOpenTab] = React.useState(1);

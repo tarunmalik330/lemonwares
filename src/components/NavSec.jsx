@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Logo from "../assets/images/png/PageLogo.png";
+import Logo from "../assets/images/web.p/PageLogo.webp";
 import { CallSvg } from "./IconImg";
 
 const NavSec = () => {
@@ -25,7 +25,7 @@ const NavSec = () => {
               </a>
               <a
                 href="#services"
-                className="text-[15px] lg:block hidden font-semibold text-black no-underline whitespace-nowrap after:absolute relative after:transition-all after:duration-300 after:ease-linear after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:left-[11%] after:right-[89%] hover:after:right-[11%] after:bottom-[-4px]"
+                className="text-[15px] lg:block hidden ff_poppins font-semibold text-black no-underline whitespace-nowrap after:absolute relative after:transition-all after:duration-300 after:ease-linear after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:left-[11%] after:right-[89%] hover:after:right-[11%] after:bottom-[-4px]"
               >
                 Our Services
               </a>
@@ -33,19 +33,19 @@ const NavSec = () => {
             <div className="flex items-center xl:gap-[33px] gap-[15px]">
               <a
                 href="#about"
-                className="lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+                className="ff_poppins lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
               >
                 About
               </a>
               <a
                 href="#blognews"
-                className="lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+                className="lg:block ff_poppins hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
               >
                 Blog&News
               </a>
               <a
                 href="#contact"
-                className="lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+                className="lg:block ff_poppins hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
               >
                 Contact
               </a>
@@ -54,7 +54,7 @@ const NavSec = () => {
           <div className="flex items-center gap-[30px]">
             <a
               href="#account"
-              className="lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="lg:block ff_poppins hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               Account
             </a>
@@ -64,7 +64,7 @@ const NavSec = () => {
               className="hidden lg:flex gap-[6px] items-center"
             >
               <CallSvg />
-              <p className="lg:block hidden text-[16px] font-semibold text-black hover:text-[#B00000] transition-colors duration-300 ease-linear leading-[285%]">
+              <p className="lg:block ff_poppins hidden text-[16px] font-semibold text-black hover:text-[#B00000] transition-colors duration-300 ease-linear leading-[285%]">
                 +2349067322844
               </p>
             </a>
@@ -77,35 +77,35 @@ const NavSec = () => {
             <a
               onClick={() => setNav(!nav)}
               href="#services"
-              className="text-[15px] font-semibold text-black no-underline whitespace-nowrap  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="text-[15px] ff_poppins font-semibold text-black no-underline whitespace-nowrap  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               Our Services
             </a>
             <a
               onClick={() => setNav(!nav)}
               href="#about"
-              className="text-[15px] font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="text-[15px] ff_poppins font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               About
             </a>
             <a
               onClick={() => setNav(!nav)}
               href="#blognews"
-              className="text-[15px] font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="text-[15px] ff_poppins font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               Blog&News
             </a>
             <a
               onClick={() => setNav(!nav)}
               href="#contact"
-              className="text-[15px] font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="text-[15px] ff_poppins font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               Contact
             </a>
             <a
               onClick={() => setNav(!nav)}
               href="#account"
-              className="text-[15px] font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
+              className="text-[15px] ff_poppins font-semibold text-black no-underline  after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]"
             >
               Account
             </a>
@@ -115,7 +115,7 @@ const NavSec = () => {
               className="flex gap-[6px] items-center"
             >
               <CallSvg />
-              <p className="text-[16px] font-semibold text-black leading-[285%] hover:text-[#B00000] transition-colors duration-300 ease-linear">
+              <p className="text-[16px] ff_poppins font-semibold text-black leading-[285%] hover:text-[#B00000] transition-colors duration-300 ease-linear">
                 +2349067322844
               </p>
             </a>

@@ -1,14 +1,14 @@
 import React from "react";
-import Cpanel from "../assets/images/png/Cpanel.png";
-import Secured from "../assets/images/png/securedImg.png";
-import LiteSpeed from "../assets/images/png/litespeedImg.png";
-import SoftImg from "../assets/images/png/SoftImg.png";
-import WordPress from "../assets/images/png/WordPressImg.png";
-import CloudFlare from "../assets/images/png/CloudFlareImg.png";
-import uptime from "../assets/images/png/UptimeImg.png";
-import BlazingImg from "../assets/images/png/BlazingImg.png";
-import Certificates from "../assets/images/png/CertificatesImg.png";
-import FriendlySupport from "../assets/images/png/FriendlySupport.png";
+import Cpanel from "../assets/images/web.p/Cpanel.webp";
+import Secured from "../assets/images/web.p/securedImg.webp";
+import LiteSpeed from "../assets/images/web.p/litespeedImg.webp";
+import SoftImg from "../assets/images/web.p/SoftImg.webp";
+import WordPress from "../assets/images/web.p/WordPressImg.webp";
+import CloudFlare from "../assets/images/web.p/CloudFlareImg.webp";
+import uptime from "../assets/images/web.p/UptimeImg.webp";
+import BlazingImg from "../assets/images/web.p/BlazingImg.webp";
+import Certificates from "../assets/images/web.p/CertificatesImg.webp";
+import FriendlySupport from "../assets/images/web.p/FriendlySupport.webp";
 
 const WebHosting = () => {
   const Trueweb = [
@@ -43,7 +43,7 @@ const WebHosting = () => {
         id="about"
         className="container xl:max-w-[1308px] xl:px-3 px-6 mx-auto sm:pt-[79px] pt-[40px]"
       >
-        <div className="flex flex-row flex-wrap justify-between lg:pb-[100px] sm:pb-[70px] pb-[50px]">
+        <div className="flex flex-row flex-wrap justify-between lg:pb-[118px] sm:pb-[70px] pb-[50px]">
           <div className="lg:w-6/12 w-full">
             <h2
               className="text-[#18191F] ff_inter sm:text-[40px] xl:text-[48px] text-[22px] font-extrabold leading-[133.333%] sm:mb-[20px] mb-3"
@@ -67,42 +67,42 @@ const WebHosting = () => {
               className="flex flex-row justify-between items-center flex-wrap"
               data-aos="fade-left"
             >
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center sm:mb-[42px] mb-0">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-start sm:mb-[42px] mb-0">
                 <img
                   src={Cpanel}
                   alt="Cpanel"
                   className="w-full sm:h-[30px] h-[20px] sm:max-w-[140.714px] max-w-[120px] "
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center sm:mb-[42px] mb-0">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end sm:mb-[42px] mb-0">
                 <img
                   src={Secured}
                   alt="Secured"
                   className="w-full sm:h-[50px] h-[40px] sm:max-w-[125.424px] max-w-[120px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center sm:mb-[42px] mb-0">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-start sm:mb-[42px] mb-0">
                 <img
                   src={LiteSpeed}
                   alt="LiteSpeed"
                   className="w-full sm:h-[53px] h-[43px] sm:max-w-[125px] max-w-[120px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end">
                 <img
                   src={SoftImg}
                   alt="SoftImg"
                   className="w-full sm:h-[92px] h-[82px] sm:max-w-[172px] max-w-[120px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-start">
                 <img
                   src={WordPress}
                   alt="WordPress"
                   className="w-full sm:h-[56px] h-[46px] sm:max-w-[168px] max-w-[120px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end">
                 <img
                   src={CloudFlare}
                   alt="CloudFlare"

@@ -1,8 +1,8 @@
 import React from "react";
 import { WhatsappSvg } from "./IconImg";
-import RedImg1 from "../assets/images/png/RedImg1.png";
-import RedImg2 from "../assets/images/png/RedImg2.png";
-import RedImg3 from "../assets/images/png/RedImg3.png";
+import RedImg1 from "../assets/images/web.p/RedImg1.webp";
+import RedImg2 from "../assets/images/web.p/RedImg2.webp";
+import RedImg3 from "../assets/images/web.p/RedImg3.webp";
 
 const WebsiteAwesome = () => {
   return (
