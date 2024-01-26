@@ -71,42 +71,42 @@ const WebHosting = () => {
                 <img
                   src={Cpanel}
                   alt="Cpanel"
-                  className="w-full sm:h-[30px] h-[20px] sm:max-w-[140.714px] max-w-[120px] "
+                  className="w-full sm:h-[30px] h-[20px] sm:max-w-[140.714px] max-w-[110px] "
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end sm:mb-[42px] mb-0">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center sm:mb-[42px] mb-0">
                 <img
                   src={Secured}
                   alt="Secured"
-                  className="w-full sm:h-[50px] h-[40px] sm:max-w-[125.424px] max-w-[120px]"
+                  className="w-full sm:h-[50px] h-[40px] sm:max-w-[125.424px] max-w-[110px]"
                 />
               </div>
               <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-start sm:mb-[42px] mb-0">
                 <img
                   src={LiteSpeed}
                   alt="LiteSpeed"
-                  className="w-full sm:h-[53px] h-[43px] sm:max-w-[125px] max-w-[120px]"
+                  className="w-full sm:h-[53px] h-[43px] sm:max-w-[125px] max-w-[110px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
                 <img
                   src={SoftImg}
                   alt="SoftImg"
-                  className="w-full sm:h-[92px] h-[82px] sm:max-w-[172px] max-w-[120px]"
+                  className="w-full sm:h-[92px] h-[82px] sm:max-w-[172px] max-w-[110px]"
                 />
               </div>
               <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-start">
                 <img
                   src={WordPress}
                   alt="WordPress"
-                  className="w-full sm:h-[56px] h-[46px] sm:max-w-[168px] max-w-[120px]"
+                  className="w-full sm:h-[56px] h-[46px] sm:max-w-[168px] max-w-[110px]"
                 />
               </div>
-              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end sm:justify-center justify-end">
+              <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
                 <img
                   src={CloudFlare}
                   alt="CloudFlare"
-                  className="w-full sm:h-[47px] h-[37px] sm:max-w-[143px] max-w-[120px]"
+                  className="w-full sm:h-[47px] h-[37px] sm:max-w-[143px] max-w-[110px]"
                 />
               </div>
             </div>

@@ -13,7 +13,7 @@ const ServeWebsite = () => {
         <div className="flex flex-row justify-between flex-wrap items-center">
           <div className="lg:w-1/2 w-full">
             <p
-              className="text-[#18191F] sm:text-[41px] text-[20px] md:text-[48px] font-extrabold ff_inter leading-[133%] lg:max-w-[445px] m-0 pb-[8px] text-center"
+              className="text-[#18191F] sm:text-[41px] text-[24px] md:text-[48px] font-extrabold ff_inter leading-[133%] lg:max-w-[445px] m-0 pb-[8px] text-center"
               data-aos="fade-right"
             >
               We serve over 100 Nigerian Websites

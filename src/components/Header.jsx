@@ -132,7 +132,7 @@ const Tabs = () => {
                 sizes backed by 24x7x365 Support.
               </p>
               <div
-                className="flex sm:flex-row flex_col sm:gap-[24px] gap-3"
+                className="flex sm:flex-row max-w-[160px] sm:max-w-[0] flex_col sm:gap-[24px] gap-3"
                 data-aos="zoom-in-right"
               >
                 <button className="text-white whitespace-nowrap hover:shadow-[0_3px_20px_rgba(176,_0,_0,_1)] transition-all ease-linear duration-500 ff_poppins font-normal text-sm !leading-[171.429%] bg-[#B00000] shadow-[0px_0px_64px_0px_rgba(176,_0,_0,_0.30)] rounded-[12px] py-3 px-[14px] ">
