@@ -30,7 +30,6 @@
   }
 }
 
-/* -------------------------Preloader-------------------- */
 .body-bg {
   background-color: #b00000;
 }
@@ -90,6 +89,19 @@
     color: white;
     -webkit-text-stroke: 2px #b00000;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(176, 0, 0, 1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b00000;
+  outline: 1px solid #b00000;
 }
 
 @media (max-width:374px) {
