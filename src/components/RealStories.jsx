@@ -52,7 +52,7 @@ const RealStories = () => {
               </div>
             </div>
             <div
-              className="lg:w-[50%] flex flex-col gap-8 pt-[48px]"
+              className="lg:w-[50%] flex flex-col gap-8 lg:pt-[48px]"
               data-aos="zoom-in-up"
             >
               <div className="rounded-[8px] cursor-pointer shadow-[0px_10px_20px_0px_rgba(41,41,42,0.07)] hover:shadow-[5px_10px_20px_8px_rgba(41,41,42,0.07)] transition-all ease-linear duration-500 sm:px-8 px-4 lg:max-w-[445px] lg:pb-[14px] py-8 lg:pt-[39px]">
