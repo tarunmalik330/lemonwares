@@ -11,20 +11,22 @@ const RealStories = () => {
         id="blognews"
         className="xl:pt-[105px] lg:pt-[70px] lg:pb-[55px] md:py-[70px] sm:py-[60px] pt-[30px] pb-[50px]"
       >
-        <div className="container xl:max-w-[1218px] xl:px-3 px-6 mx-auto">
-          <div className="flex flex-row max-lg:flex-wrap justify-end relative">
+        <div className="container xl:max-w-[1039px] xl:px-3 px-6 mx-auto">
+          <div className="flex flex-row max-lg:flex-wrap gap-[30px] mt-14 justify-end relative">
             <PinkComma />
             <div
-              className="xl:w-[40%] lg:w-[50%] flex flex-col"
+              className="xl:w-[40%] lg:w-[50%] flex flex-col items-end"
               data-aos="zoom-in-up"
             >
-              <h4 className="text-[#18191F] lg:text-[48px] md:text-[43px] sm:text-[38px] text-[28px] font-extrabold ff_inter leading-[133.999%] lg:max-w-[444px] mt-14 lg:text-start text-center">
-                Real Stories from Real Customers
-              </h4>
-              <p className="text-[#18191F] text-[18px] ff_inter font-normal leading-[178%] mt-2 lg:text-start text-center">
-                Get inspired by these stories.
-              </p>
-              <div className="rounded-[8px] cursor-pointer shadow-[0px_10px_20px_0px_rgba(41,41,42,0.07)] hover:shadow-[5px_10px_20px_8px_rgba(41,41,42,0.07)] transition-all ease-linear duration-500 sm:px-8 px-4 lg:max-w-[350px] mt-6 lg:mx-auto lg:ml-24 lg:pb-24 py-8 lg:pt-[40px]">
+              <div>
+                <h4 className="text-[#18191F] lg:text-[48px] md:text-[43px] sm:text-[38px] text-[28px] font-extrabold ff_inter leading-[133.999%] lg:max-w-[444px] lg:text-start text-center">
+                  Real Stories from Real Customers
+                </h4>
+                <p className="text-[#18191F] text-[18px] ff_inter font-normal leading-[178%] mt-2 lg:text-start text-center">
+                  Get inspired by these stories.
+                </p>
+              </div>
+              <div className="rounded-[8px] cursor-pointer shadow-[0px_10px_20px_0px_rgba(41,41,42,0.07)] hover:shadow-[5px_10px_20px_8px_rgba(41,41,42,0.07)] transition-all ease-linear duration-500 sm:px-8 px-4 lg:max-w-[350px] mt-6 lg:pb-24 py-8 lg:pt-[40px]">
                 <img
                   src={CLIimg}
                   alt="CLIimg"
@@ -50,7 +52,7 @@ const RealStories = () => {
               </div>
             </div>
             <div
-              className="lg:w-[50%] flex flex-col gap-8 lg:translate-y-[15%]"
+              className="lg:w-[50%] flex flex-col gap-8 pt-[48px]"
               data-aos="zoom-in-up"
             >
               <div className="rounded-[8px] cursor-pointer shadow-[0px_10px_20px_0px_rgba(41,41,42,0.07)] hover:shadow-[5px_10px_20px_8px_rgba(41,41,42,0.07)] transition-all ease-linear duration-500 sm:px-8 px-4 lg:max-w-[445px] lg:pb-[14px] py-8 lg:pt-[39px]">

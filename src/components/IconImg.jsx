@@ -33,7 +33,7 @@ export const WhatsappSvg = () => {
 export const PinkComma = () => {
   return (
     <svg
-      className="absolute top-0 xl:left-[23px] left-0 lg:max-w-[143px] max-w-[70px]"
+      className="absolute sm:top-[-8%] top-[-5%] xl:left-[-24px] left-0 lg:max-w-[143px] max-w-[70px]"
       width="143"
       height="120"
       viewBox="0 0 143 120"

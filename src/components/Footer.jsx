@@ -15,7 +15,7 @@ const Footer = () => {
                   className="w-full h-[80px] max-w-[120.959px]"
                 />
               </a>
-              <p className="pt-4 text-[#E6E6E6] ff_inter font-normal text-base !leading-[200%] ">
+              <p className="pt-4 text-[#E6E6E6] lg:max-w-[296px] ff_inter font-normal text-base !leading-[200%] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                 aliquam, purus sit amet luctus venenatis, lectus magna fringilla
                 urna, porttitor rhoncus dolor purus non enim praesent elem
