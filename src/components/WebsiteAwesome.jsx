@@ -16,21 +16,21 @@ const WebsiteAwesome = () => {
             <img
               src={RedImg1}
               alt="RedImg1"
-              className="absolute zoom-in-out-box sm:block hidden right-[-25px] bottom-[30px] w-full sm:max-w-[72px] max-w-[40px]"
+              className="absolute sm:block hidden right-[-25px] bottom-[30px] w-full sm:max-w-[72px] max-w-[40px]"
               data-aos="fade-up"
               data-aos-anchor-placement="top-center"
             />
             <img
               src={RedImg2}
               alt="RedImg2"
-              className="absolute zoom-in-out-box w-full sm:block hidden max-w-[40px] top-0 left-[31%]"
+              className="absolute w-full sm:block hidden max-w-[40px] top-0 left-[31%]"
               data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"
             />
             <img
               src={RedImg3}
               alt="RedImg3"
-              className="absolute zoom-in-out-box sm:block hidden bottom-[30%] left-[-15px] w-full max-w-[40px]"
+              className="absolute sm:block hidden bottom-[30%] left-[-15px] w-full max-w-[40px]"
               data-aos="fade-up"
               data-aos-anchor-placement="top-center"
             />

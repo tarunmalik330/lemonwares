@@ -159,7 +159,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="lg:pt-[104px] sm:pt-[70px] pt-[24px]">
-            <p className="text-white ff_inter text-base !leading-[200%] font-normal ">
+            <p className="text-white ff_inter sm:text-base text-[13px] !leading-[200%] font-normal ">
               Built by Jeremiah with 🤍 in Lagos. Copyright 2021
             </p>
           </div>

@@ -36,7 +36,7 @@ const GetStarted = () => {
             className={`${
               show
                 ? "after:translate-x-0"
-                : "sm:after:translate-x-[140%] after:translate-x-[180%]"
+                : "sm:after:translate-x-[140%] after:translate-x-[180%] bg-black"
             } sm:w-[93px] w-[60px] cursor-pointer sm:h-[50px] h-[30px] rounded-[73px] bg-[#B00000] relative after:absolute after:bg-white sm:after:w-[30px] after:w-[15px] sm:after:h-[30px] after:h-[15px] after:rounded-[30px]  after:transition-all after:ease-in-out after:duration-500 sm:after:top-[10px] after:top-2 after:bottom-[10px] after:left-[9px]`}
           ></div>
           <div className="flex items-center gap-[17px] ">
@@ -77,7 +77,7 @@ const GetStarted = () => {
           className="flex flex-wrap items-center lg:justify-between justify-center gap-6"
           data-aos="zoom-in-up"
         >
-          <div className="border-[2px] lg:max-w-[299px] sm:w-[48%] max-w-[320px] w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.25)inset] cursor-pointer rounded-[15px] border-[#C4C4C4] group hover:bg-[#F7FAFE] transition-colors ease-linear duration-500 border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
+          <div className="border-[2px] lg:max-w-[299px] sm:w-[48%] max-w-[320px] w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.15)inset] cursor-pointer rounded-[15px] border-[#C4C4C4] group hover:bg-[#F7FAFE] transition-colors ease-linear duration-500 border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Starter
             </p>
@@ -177,7 +177,7 @@ const GetStarted = () => {
               </p>
             </div>
           </div>
-          <div className="border-[2px] group hover:bg-[#F7FAFE] max-w-[320px] transition-colors ease-linear duration-500 lg:max-w-[299px] sm:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.25)inset] rounded-[15px] border-[#C4C4C4] border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
+          <div className="border-[2px] group hover:bg-[#F7FAFE] max-w-[320px] transition-colors ease-linear duration-500 lg:max-w-[299px] sm:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.15)inset] rounded-[15px] border-[#C4C4C4] border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Standard
             </p>
@@ -277,7 +277,7 @@ const GetStarted = () => {
               </p>
             </div>
           </div>
-          <div className="border-[2px] group hover:bg-[#F7FAFE] transition-colors max-w-[320px] ease-linear duration-500 lg:max-w-[299px] sm:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.25)inset] rounded-[15px] border-[#C4C4C4] border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
+          <div className="border-[2px] group hover:bg-[#F7FAFE] transition-colors max-w-[320px] ease-linear duration-500 lg:max-w-[299px] sm:w-[48%] cursor-pointer w-full shadow-[0px_0px_4px_0px_rgba(0,_0,_0,_0.15)inset] rounded-[15px] border-[#C4C4C4] border-solid bg-white pt-[34px] pl-[35px] pr-[29px] pb-[48px]">
             <p className="text-black ff_poppins text-[28px] leading-[89.286%] font-semibold pb-[11px]">
               Suprem
             </p>

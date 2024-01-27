@@ -85,7 +85,7 @@ const WebHosting = () => {
                 <img
                   src={LiteSpeed}
                   alt="LiteSpeed"
-                  className="w-full sm:h-[53px] h-[43px] sm:max-w-[125px] max-w-[110px]"
+                  className="w-full sm:max-w-[125px] max-w-[110px]"
                 />
               </div>
               <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">
@@ -99,7 +99,7 @@ const WebHosting = () => {
                 <img
                   src={WordPress}
                   alt="WordPress"
-                  className="w-full sm:h-[56px] h-[46px] sm:max-w-[168px] max-w-[110px]"
+                  className="w-full sm:max-w-[168px] max-w-[110px]"
                 />
               </div>
               <div className="sm:w-[26.5%] w-6/12 flex lg:justify-end justify-center">

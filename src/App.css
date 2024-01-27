@@ -12,24 +12,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-.zoom-in-out-box {
-  animation: zoom-in-zoom-out 1.5s ease infinite;
-}
-
-@keyframes zoom-in-zoom-out {
-  0% {
-    transform: scale(0.9, 0.9);
-  }
-
-  50% {
-    transform: scale(1.05, 1.05);
-  }
-
-  100% {
-    transform: scale(0.9, 0.9);
-  }
-}
-
 .body-bg {
   background-color: #b00000;
 }
