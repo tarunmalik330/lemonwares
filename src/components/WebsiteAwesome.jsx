@@ -9,7 +9,7 @@ const WebsiteAwesome = () => {
     <>
       <div
         id="contact"
-        className="sm:pt-[106px] sm:pb-[110px] pt-[30px] pb-[50px] "
+        className="lg:pt-[106px] lg:pb-[110px] sm:py-[70px] pt-[30px] pb-[50px] "
       >
         <div className="container mx-auto xl:max-w-[1296px] xl:px-3 px-6">
           <div className="rounded-[16px] relative flex flex-col items-center justify-center sm:pt-[80px] sm:pb-[88px] sm:ml-[15px] sm:mr-[25px] py-[70px] px-2 bg-[#F7FAFE]">

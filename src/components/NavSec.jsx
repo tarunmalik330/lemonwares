@@ -20,7 +20,7 @@ const NavSec = () => {
                 <img
                   src={Logo}
                   alt="Logo"
-                  className="!max-w-[90.811px] h-[60px] w-full"
+                  className="sm:max-w-[90.811px] max-w-[80.811px]  h-[60px] w-full"
                 />
               </a>
               <a

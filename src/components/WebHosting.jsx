@@ -43,7 +43,7 @@ const WebHosting = () => {
         id="about"
         className="container xl:max-w-[1308px] xl:px-3 px-6 mx-auto sm:pt-[79px] pt-[40px]"
       >
-        <div className="flex flex-row flex-wrap justify-between lg:pb-[118px] sm:pb-[70px] pb-[50px]">
+        <div className="flex flex-row flex-wrap justify-between xl:pb-[118px] sm:pb-[70px] pb-[50px]">
           <div className="lg:w-6/12 w-full">
             <h2
               className="text-[#18191F] ff_inter sm:text-[40px] xl:text-[48px] text-[22px] font-extrabold leading-[133.333%] sm:mb-[20px] mb-3"

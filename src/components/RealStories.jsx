@@ -9,7 +9,7 @@ const RealStories = () => {
     <>
       <div
         id="blognews"
-        className="lg:pt-[105px] lg:pb-[55px] md:py-[70px] sm:py-[60px] pt-[30px] pb-[50px]"
+        className="xl:pt-[105px] lg:pt-[70px] lg:pb-[55px] md:py-[70px] sm:py-[60px] pt-[30px] pb-[50px]"
       >
         <div className="container xl:max-w-[1218px] xl:px-3 px-6 mx-auto">
           <div className="flex flex-row max-lg:flex-wrap justify-end relative">

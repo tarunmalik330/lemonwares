@@ -8,7 +8,7 @@ const GetStarted = () => {
     <>
       <div
         id="services"
-        className="container max-w-[1121px] mx-auto xl:px-3 px-6 lg:pt-[133px] sm:pt-[50px] pt-[25px]"
+        className="container max-w-[1121px] mx-auto xl:px-3 px-6 xl:pt-[133px] lg:pt-[70px] sm:pt-[50px] pt-[25px]"
       >
         <div className="flex justify-center items-center flex-col">
           <h2

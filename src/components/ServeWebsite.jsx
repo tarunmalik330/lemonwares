@@ -9,7 +9,7 @@ import Serveimg6 from "../assets/images/web.p/serve-img6.webp";
 const ServeWebsite = () => {
   return (
     <>
-      <div className="container mx-auto xl:px-3 px-6 xl:max-w-[1218px] lg:pt-[84px] pt-0">
+      <div className="container mx-auto xl:px-3 px-6 xl:max-w-[1218px] xl:pt-[84px] lg:pt-[15px] pt-0">
         <div className="flex flex-row justify-between flex-wrap items-center">
           <div className="lg:w-1/2 w-full">
             <p

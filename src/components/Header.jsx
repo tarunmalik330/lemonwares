@@ -15,12 +15,9 @@ const Tabs = () => {
       >
         <li className="pb-1 relative">
           <a
-            className={
-              "text-[15px] font-semibold ff_poppins leading-normal " +
-              (openTab === 1
-                ? "text-[#B00000]"
-                : "text-[rgba(214,212,212,0.88)]")
-            }
+            className={`${
+              openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
             onClick={(e) => {
               e.preventDefault();
               setOpenTab(1);
@@ -32,20 +29,16 @@ const Tabs = () => {
             Hosting
           </a>
           <div
-            className={
-              "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-              (openTab === 1 ? "" : "bg-[#b00000]")
-            }
+            className={`${
+              openTab === 1 ? "bg-[#b00000]" : ""
+            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
           ></div>
         </li>
         <li className="ml-[23px] pb-1 relative">
           <a
-            className={
-              "text-[15px] font-semibold ff_poppins leading-normal " +
-              (openTab === 2
-                ? "text-[#B00000]"
-                : "text-[rgba(214,212,212,0.88)]")
-            }
+            className={`${
+              openTab === 2 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
             onClick={(e) => {
               e.preventDefault();
               setOpenTab(2);
@@ -57,20 +50,16 @@ const Tabs = () => {
             Domain
           </a>
           <div
-            className={
-              "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-              (openTab === 2 ? "" : "bg-[#b00000]")
-            }
+            className={`${
+              openTab === 2 ? "bg-[#b00000]" : ""
+            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
           ></div>
         </li>
         <li className="ml-[18px] pb-1 relative">
           <a
-            className={
-              "text-[15px] font-semibold ff_poppins leading-normal " +
-              (openTab === 3
-                ? "text-[#B00000]"
-                : "text-[rgba(214,212,212,0.88)]")
-            }
+            className={`${
+              openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
             onClick={(e) => {
               e.preventDefault();
               setOpenTab(3);
@@ -82,20 +71,16 @@ const Tabs = () => {
             SEO
           </a>
           <div
-            className={
-              "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-              (openTab === 3 ? "" : "bg-[#b00000]")
-            }
+            className={`${
+              openTab === 3 ? "bg-[#b00000]" : ""
+            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
           ></div>
         </li>
         <li className="ml-[15px] pb-1 relative">
           <a
-            className={
-              "text-[15px] font-semibold ff_poppins leading-normal " +
-              (openTab === 4
-                ? "text-[#B00000]"
-                : "text-[rgba(214,212,212,0.88)]")
-            }
+            className={`${
+              openTab === 4 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"
+            } text-[15px] font-semibold ff_poppins leading-normal transition-all duration-300 ease-linear`}
             onClick={(e) => {
               e.preventDefault();
               setOpenTab(4);
@@ -107,10 +92,9 @@ const Tabs = () => {
             Email
           </a>
           <div
-            className={
-              "absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#b00000] z-[3]" +
-              (openTab === 4 ? "" : "bg-[#b00000]")
-            }
+            className={`${
+              openTab === 4 ? "bg-[#b00000]" : ""
+            } absolute h-[1px] bottom-0 left-[7%] right-[10%] transition-all duration-300 ease-linear z-[3]`}
           ></div>
         </li>
       </ul>
@@ -148,12 +132,12 @@ const Tabs = () => {
                 <img
                   src={RedVector1}
                   alt="RedVector1"
-                  className="w-full absolute sm:right-[-20px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
+                  className="w-full absolute xl:right-[-20px] sm:right-[-15px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
                 />
                 <img
                   src={RedVector2}
                   alt="RedVector2"
-                  className="w-full max-w-[72px] absolute sm:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
+                  className="w-full max-w-[72px] absolute xl:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
                 />
                 <img
                   src={RedVector3}
@@ -203,12 +187,12 @@ const Tabs = () => {
                 <img
                   src={RedVector1}
                   alt="RedVector1"
-                  className="w-full absolute sm:right-[-20px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
+                  className="w-full absolute xl:right-[-20px] sm:right-[-15px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
                 />
                 <img
                   src={RedVector2}
                   alt="RedVector2"
-                  className="w-full max-w-[72px] absolute sm:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
+                  className="w-full max-w-[72px] absolute xl:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
                 />
                 <img
                   src={RedVector3}
@@ -258,12 +242,12 @@ const Tabs = () => {
                 <img
                   src={RedVector1}
                   alt="RedVector1"
-                  className="w-full absolute sm:right-[-20px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
+                  className="w-full absolute xl:right-[-20px] sm:right-[-15px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
                 />
                 <img
                   src={RedVector2}
                   alt="RedVector2"
-                  className="w-full max-w-[72px] absolute sm:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
+                  className="w-full max-w-[72px] absolute xl:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
                 />
                 <img
                   src={RedVector3}
@@ -313,12 +297,12 @@ const Tabs = () => {
                 <img
                   src={RedVector1}
                   alt="RedVector1"
-                  className="w-full absolute sm:right-[-20px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
+                  className="w-full absolute xl:right-[-20px] sm:right-[-15px] right-[-6px] top-[10%] max-w-[40px] z-[1] "
                 />
                 <img
                   src={RedVector2}
                   alt="RedVector2"
-                  className="w-full max-w-[72px] absolute sm:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
+                  className="w-full max-w-[72px] absolute xl:right-[-8%] right-[-2%] bottom-[11%] z-[1] "
                 />
                 <img
                   src={RedVector3}
