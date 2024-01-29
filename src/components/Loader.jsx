@@ -5,26 +5,35 @@ const Loader = () => {
     <>
       <div className="min-h-screen fixed flex flex-col justify-center items-center left-0 right-0">
         <div>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
             l
           </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            e
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            m
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
             o
           </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
-            a
-          </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
-            d
-          </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
-            i
-          </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
             n
           </p>
-          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[40px] font-semibold ff_inter scale-[.5] text-[#b00000]">
-            g
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            w
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            a
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            r
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            e
+          </p>
+          <p className="text_animate inline-flex uppercase text-center sm:text-[60px] text-[32px] font-semibold ff_inter scale-[.5] text-[#b00000]">
+            s
           </p>
         </div>
       </div>
