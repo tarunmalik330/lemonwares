@@ -115,7 +115,7 @@ const GetStarted = () => {
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
+              <p className="text-[#b00000] ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
@@ -215,7 +215,7 @@ const GetStarted = () => {
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
+              <p className="text-[#b00000] ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
@@ -315,7 +315,7 @@ const GetStarted = () => {
                 Per month
               </p>
             ) : (
-              <p className="text-black ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
+              <p className="text-[#b00000] ff_poppins text-sm !leading-[100%] font-light pb-[35px]">
                 Per year
               </p>
             )}
